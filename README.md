@@ -39,3 +39,5 @@ Esta função configura e inicia o jogo Flappy Bird.
 Cria o elemento do jogo, incluindo o pássaro, as barreiras e o progresso.
 Inicia um temporizador para animar as barreiras e o pássaro e verificar colisões.
 O jogo é iniciado ao criar uma instância de FlappyBird e chamar seu método start. Durante o jogo, o jogador controla o pássaro para evitar colisões com as barreiras e acumular pontos ao atravessar as aberturas nas barreiras.
+
+![image](https://github.com/Murilophy/Flappy-Bird/assets/137320364/4ee279c8-c060-446c-9106-4eefcbfe2b41)
