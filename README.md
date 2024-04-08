@@ -1,6 +1,6 @@
 
 Este é um código que implementa o jogo Flappy Bird usando JavaScript e manipulação do DOM (Document Object Model).
-Vou explicar um pouco sobre as principais partes do código:
+Vou explicar um pouco sobre a parte de javascript do código:
 
 𝔽𝕦𝕟𝕔̧𝕒̃𝕠 𝕟𝕠𝕧𝕠𝔼𝕝𝕖𝕞𝕖𝕟𝕥𝕠:
 
