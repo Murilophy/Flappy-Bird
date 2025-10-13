@@ -19,22 +19,6 @@ Uma recriação do clássico **Flappy Bird**, onde o objetivo é controlar um p�
 * **Detecção de colisão** para interromper o jogo em caso de falha;
 * **Interação com teclado** para controlar o voo do pássaro.
 
-### 🛠 Principais Funções
-
-| Função             | Responsabilidade                                   |
-| ------------------ | -------------------------------------------------- |
-| `novoElemento`     | Cria elementos HTML dinamicamente com tag e classe |
-| `Barreira`         | Gera uma barreira com altura variável              |
-| `ParDeBarreiras`   | Cria barreiras superior e inferior com abertura    |
-| `Barreiras`        | Conjunto de barreiras animadas com pontuação       |
-| `Passaro`          | Controla o movimento do pássaro (voo e queda)      |
-| `Progresso`        | Exibe a pontuação atual do jogador                 |
-| `estaoSobrepostos` | Verifica colisão entre dois elementos              |
-| `colidiu`          | Finaliza o jogo em caso de colisão                 |
-| `FlappyBird`       | Inicializa e gerencia todo o jogo                  |
-
----
-
 ## 🚀 Como Jogar
 
 1. **Abra o arquivo `index.html`** no navegador;
