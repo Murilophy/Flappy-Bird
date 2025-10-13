@@ -22,7 +22,7 @@ Uma recriação do clássico **Flappy Bird**, onde o objetivo é controlar um p�
 ## 🚀 Como Jogar
 
 1. **Abra o arquivo `index.html`** no navegador;
-2. Pressione qualquer tecla para fazer o pássaro voar;
+2. Pressione espaço para fazer o pássaro voar;
 3. Desvie das barreiras e tente fazer a maior pontuação!
 
 ---
