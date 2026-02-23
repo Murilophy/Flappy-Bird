@@ -2,7 +2,7 @@
 ### 🎮 Um jogo 2D desenvolvido com JavaScript puro
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/059380a4-93e0-41db-85f5-cfb8cd6dca01" width="600"/>
+  <img width="1885" height="874" alt="image" src="https://github.com/user-attachments/assets/abf0d4f0-87f4-4e26-8664-af68f2269b5f" />
 </p>
 
 <p align="center">
@@ -105,6 +105,7 @@ O objetivo foi evoluir além de um simples clone, implementando melhorias estrut
 ---
 
 # 📂 Estrutura do Projeto
+
 Flappy Bird/
 │
 ├── css/
