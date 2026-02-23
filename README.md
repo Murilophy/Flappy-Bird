@@ -1,172 +1,176 @@
-🐦 Flappy Bird – Projeto em JavaScript
+# 🐦 Flappy Bird Clone
+### 🎮 Um jogo 2D desenvolvido com JavaScript puro
 
-Bem-vindo ao Flappy Bird Clone, um jogo desenvolvido em HTML, CSS e JavaScript puro, com foco em manipulação avançada do DOM, lógica de jogos 2D e persistência de dados no navegador.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/059380a4-93e0-41db-85f5-cfb8cd6dca01" width="600"/>
+</p>
 
-Este projeto evoluiu além de um simples clone: agora conta com tela de Game Over, sistema de recorde salvo no navegador, reinicialização dinâmica e melhorias estruturais no código.
+<p align="center">
+  <strong>Manipulação avançada do DOM • Lógica de jogo • Persistência com localStorage • UX aprimorada</strong>
+</p>
 
-🎮 Sobre o Jogo
+---
 
-Uma recriação do clássico Flappy Bird, onde o jogador controla um pássaro que deve atravessar barreiras sem colidir.
+# 📌 Sobre o Projeto
 
-Cada barreira ultrapassada soma pontos. Ao colidir, o jogo exibe a pontuação final e permite reiniciar instantaneamente.
+Este projeto é uma recriação do clássico **Flappy Bird**, desenvolvido utilizando apenas:
 
-🚀 Funcionalidades Implementadas
-🎯 Sistema de Pontuação
+- ✅ HTML  
+- ✅ CSS  
+- ✅ JavaScript puro (Vanilla JS)
 
-Contador dinâmico atualizado em tempo real
+O objetivo foi evoluir além de um simples clone, implementando melhorias estruturais, sistema de recorde persistente, tela de Game Over dinâmica e organização profissional de código.
 
-Exibição fixa no canto superior direito
+---
 
-🏆 Sistema de Recorde Persistente
+# 🚀 Funcionalidades Implementadas
 
-Armazenamento usando localStorage
+## 🎯 Sistema de Pontuação
+- Contador atualizado em tempo real
+- Exibição fixa no canto superior direito
+- Atualização automática ao ultrapassar barreiras
 
-Recorde salvo mesmo após fechar o navegador
+---
 
-Exibição no canto superior esquerdo
+## 🏆 Sistema de Recorde Persistente
+- Armazenamento utilizando `localStorage`
+- Recorde salvo mesmo após fechar o navegador
+- Exibição no canto superior esquerdo
+- Destaque animado ao atingir novo recorde
+- Comparação automática entre pontuação atual e melhor marca
 
-Destaque animado quando um novo recorde é atingido
+---
 
-💀 Tela de Game Over
+## 💀 Tela de Game Over
+- Overlay escuro semi-transparente
+- Exibição da pontuação final
+- Botão **"Jogar Novamente"**
+- Reinicialização completa sem recarregar a página
+- Feedback visual para novo recorde
 
-Overlay escuro semi-transparente
+---
 
-Exibição da pontuação final
+## 🔁 Sistema de Reinicialização
+- Reconstrução completa do estado do jogo
+- Limpeza dinâmica da área de jogo
+- Nova instância criada via JavaScript
+- Experiência fluida e sem refresh
 
-Botão "Jogar Novamente"
+---
 
-Reinicialização completa do jogo sem recarregar a página
+# 🧠 Conceitos Técnicos Aplicados
 
-🔁 Reinício Automático
+## 🎮 Lógica de Jogo 2D
+- Simulação de gravidade
+- Movimentação contínua com `setInterval`
+- Geração procedural de barreiras
+- Detecção de colisão com `getBoundingClientRect`
 
-Estado do jogo reconstruído dinamicamente
+---
 
-Limpeza total da área antes de reiniciar
+## 🧩 Manipulação Avançada do DOM
+- Criação dinâmica de elementos:
+  - Pássaro
+  - Barreiras
+  - HUD (pontuação e recorde)
+  - Tela de Game Over
+- Atualizações visuais em tempo real
+- Separação clara entre lógica e renderização
 
-Nova instância criada via JavaScript
+---
 
-🛠 Melhorias Técnicas
+## 💾 Persistência de Dados
+- Uso estratégico de `localStorage`
+- Controle de atualização de recorde
+- Renderização condicional para novo recorde
 
-Correção de erro de leitura de clientHeight
+---
 
-Inicialização protegida com window.onload
+## 🛠 Melhorias Estruturais
+- Correção de erro de `clientHeight`
+- Inicialização protegida com `window.onload`
+- Proteções contra elementos `null`
+- Organização modular das funções construtoras
+- HUD reposicionado para melhor experiência do jogador
 
-Proteções contra elementos null
+---
 
-Melhor organização estrutural do código
+# 🎮 Como Jogar
 
-Separação visual clara entre HUD e área de jogo
+1. Abra o arquivo `index.html`
+2. Pressione **Espaço** para fazer o pássaro voar
+3. Desvie das barreiras
+4. Tente bater seu próprio recorde 🏆
 
-🧠 Conceitos Aplicados
+---
 
-Este projeto utiliza:
+# 📂 Estrutura do Projeto
+Flappy Bird/
+│
+├── css/
+│   ├── estilo.css
+│   └── flappy.css
+│
+├── fonts/
+│   ├── Oswald-Regular.ttf
+│   └── Pixel.ttf
+│
+├── html/
+│   └── flappy.html
+│
+├── imgs/
+│   └── passaro.png
+│
+├── js/
+│   └── flappy.js
+│
+└── README.md
 
-🧩 Manipulação do DOM
+---
 
-Criação dinâmica de:
-
-Pássaro
-
-Barreiras
-
-HUD (pontuação e recorde)
-
-Tela de Game Over
-
-🎮 Lógica de Jogo 2D
-
-Gravidade simulada
-
-Movimentação contínua com setInterval
-
-Geração procedural de obstáculos
-
-Detecção de colisão com getBoundingClientRect
-
-💾 Persistência de Dados
-
-Uso de localStorage
-
-Controle de atualização de recorde
-
-Comparação entre pontuação atual e melhor marca
-
-🎨 Experiência do Usuário (UX)
-
-Feedback visual ao bater recorde
-
-HUD organizado para não atrapalhar a jogabilidade
-
-Reinício rápido e fluido
-
-🚀 Como Jogar
-
-Abra o arquivo index.html no navegador;
-
-Pressione Espaço para fazer o pássaro voar;
-
-Desvie das barreiras;
-
-Tente bater seu próprio recorde!
-
-📂 Estrutura do Projeto
-/css
-    estilo.css
-/js
-    flappy.js
-/imgs
-    bird.png
-    background.png
-index.html
-🎯 Objetivo do Projeto
+# 🎯 Objetivo do Projeto
 
 Este projeto foi desenvolvido com foco em:
 
-Aprendizado de lógica de jogos
+- Aprimorar lógica de programação
+- Consolidar manipulação avançada do DOM
+- Aplicar conceitos reais de jogos 2D
+- Trabalhar persistência de dados no navegador
+- Estruturar código para portfólio profissional
 
-Organização de código JavaScript
+---
 
-Manipulação avançada do DOM
+# 🔮 Próximas Melhorias
 
-Estruturação de projetos para portfólio
+- 🎵 Implementação de efeitos sonoros
+- 📱 Versão responsiva para mobile
+- ⚡ Migração para `requestAnimationFrame`
+- 🏅 Sistema de ranking global
+- 🎨 Sistema de temas personalizados
+- 🧠 Refatoração para ES6 Classes
 
-Aplicação prática de persistência no navegador
+---
 
-É um excelente exercício para quem deseja evoluir como Front-End Developer.
+# 📊 Status do Projeto
 
-🖼 Prévia do Jogo
-<img width="1906" height="898" alt="image" src="https://github.com/user-attachments/assets/3cd9b757-8ba3-40c2-8221-947c85dcd4b0" />
+| Funcionalidade              | Status |
+|-----------------------------|--------|
+| Sistema de Pontuação        | ✅     |
+| Game Over Dinâmico          | ✅     |
+| Reinicialização sem Refresh | ✅     |
+| Recorde Persistente         | ✅     |
+| Destaque Novo Recorde       | ✅     |
+| Organização Estrutural      | ✅     |
 
-🔮 Melhorias Futuras
+---
 
-🎵 Efeitos sonoros
+# 👨‍💻 Desenvolvido por
 
-🌈 Sistema de temas
+**Murilo Oliveira**  
+Full-Stack Developer em evolução 🚀  
 
-📱 Versão mobile responsiva
+---
 
-⚡ Otimização com requestAnimationFrame
-
-🏅 Sistema de ranking global
-
-🧠 Refatoração para padrão orientado a classes ES6
-
-📌 Status do Projeto
-
-✅ Funcional
-✅ Recorde persistente
-✅ Tela de Game Over
-✅ Código organizado
-🚀 Em constante evolução
-
-Se quiser, posso:
-
-Deixar o README ainda mais chamativo (nível portfólio top GitHub)
-
-Adicionar badges profissionais
-
-Criar GIF animado para prévia
-
-Adaptar para padrão de README de empresa
-
-Esse projeto já está muito além de um simples exercício 👏🔥
+<p align="center">
+  <strong>Se este projeto te ajudou ou te inspirou, deixe uma ⭐ no repositório!</strong>
+</p>
