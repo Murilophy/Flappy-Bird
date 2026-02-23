@@ -104,9 +104,23 @@ O objetivo foi evoluir além de um simples clone, implementando melhorias estrut
 
 ---
 
-# 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
-<pre> ```bash 📁 Flappy Bird ├── 📁 css │ ├── estilo.css │ └── flappy.css ├── 📁 fonts │ └── Oswald-Regular.ttf ├── 📁 html │ └── flappy.html ├── 📁 imgs │ └── passaro.png ├── 📁 js │ └── flappy.js └── README.md ``` </pre>
+```bash
+Flappy Bird/
+├── css/
+│   ├── estilo.css
+│   └── flappy.css
+├── fonts/
+│   └── Oswald-Regular.ttf
+├── html/
+│   └── flappy.html
+├── imgs/
+│   └── passaro.png
+├── js/
+│   └── flappy.js
+└── README.md
+```
 
 ---
 
